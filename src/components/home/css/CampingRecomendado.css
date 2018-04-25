@@ -1,0 +1,13 @@
+.imagens img {
+    width: 33.3%;
+    min-width: 280px;
+}
+
+@media screen and (max-width:900px){
+    .imagens img {
+        width: 100%;
+        /* max-width: 260px;
+        text-align: center; */
+    }
+    
+}
