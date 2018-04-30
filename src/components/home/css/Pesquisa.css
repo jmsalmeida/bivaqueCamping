@@ -1,4 +1,4 @@
-section#home-bg{
+#home-bg{
     background-image: url(../images/background-nature.jpg);
     background-size: cover;
     background-position: right;
@@ -8,7 +8,7 @@ section#home-bg{
     justify-content: center;
 }
 
-section#home-bg a{
+#home-bg a{
     color: white;
     font-weight: 900;
     margin-top: 20px;

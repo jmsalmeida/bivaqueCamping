@@ -1,6 +1,7 @@
 .imagens img {
     width: 33.3%;
-    min-width: 280px;
+    min-width: 320px;
+    padding: 0 10px;
 }
 
 @media screen and (max-width:900px){

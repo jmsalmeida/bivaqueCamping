@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../../css/Auxiliares.css';
 import './css/CampingRecomendado.css';
 
 class CampingRecomendado extends Component {
