@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './css/CampingRecomendado.css';
+import './CampingRecomendado.css';
 
 class CampingRecomendado extends Component {
     render() {

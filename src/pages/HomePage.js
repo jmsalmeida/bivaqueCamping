@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
-import Pesquisa from '../components/home/Pesquisa';
-import CampingRecomendado from '../components/home/CampingRecomendado';
-import camping from '../components/home/images/camp.jpg';
+// Components
+import Pesquisa from '../components/Pesquisa/Pesquisa';
+import CampingRecomendado from '../components/ImagemCamping/CampingRecomendado';
+// CSS
+import './css/HomePage.css'
+// Images
+import campingIMG from '../components/Pesquisa/images/camp.jpg';
+
 
 class HomePage extends Component {
     render() {
@@ -11,16 +16,16 @@ class HomePage extends Component {
                 <div className="container">
                     <h2 style={{ color: '#6EBF00' }}>Recomendado</h2>
                     <div className="recomendado">
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
+                        <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                        <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                        <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
                     </div>
 
                     <h2 style={{ color: '#6EBF00' }}>Mais visitados</h2>
                     <div className="recomendado">
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
+                        <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                        <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                        <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './css/Pesquisa.css';
+import './Pesquisa.css';
 
 class Pesquisa extends Component {
     render() {
