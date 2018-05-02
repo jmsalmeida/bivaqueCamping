@@ -1,0 +1,12 @@
+.titulo-camping h2{
+    color: #6EBF00;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 26pt;
+    margin: 20px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.titulo-camping p{
+    margin: 0;
+}
