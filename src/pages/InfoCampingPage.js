@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
+// CSS
+import './css/InfoCampingPage.css';
+// Components
 import CarouselFotosCamping from '../components/CarouselFotosCamping/CarouselFotosCamping';
 import SobreCamping from '../components/SobreCamping/SobreCamping';
 import TituloCamping from '../components/TituloCamping/TituloCamping';
+// Icons
+import wireless from '../icons/wifi.svg'
+import InfoCampingIcon from '../components/InfoCampingImage/InfoCampingIcon';
 
 class InfoCampingPage extends Component {
     render() {
@@ -13,8 +19,33 @@ class InfoCampingPage extends Component {
                     <TituloCamping titulo="Camping das pedras" cidade="Itu - São Paulo" />
                     <h3>O espaço</h3>
                     <SobreCamping sobre={sobreTxt} />
+                    <div className="info">
+                        <div className="left-column">
+                        <h3>Comodidades</h3>
+                            <div className="comod-icons">
+                                <InfoCampingIcon icon={wireless}/>
+                                <InfoCampingIcon icon={wireless}/>
+                                <InfoCampingIcon icon={wireless}/>
+                            </div>
+                            <h3>Regras</h3>
+                            <div>
+                                
+                            </div>
+                        </div>
+                        <div className="y-bar"></div>
+                        <div className="right-column">
+                        <h3>Proximidades</h3>
+                            <div className="comod-icons">
+                                <InfoCampingIcon icon={wireless}/>
+                                <InfoCampingIcon icon={wireless}/>
+                                <InfoCampingIcon icon={wireless}/>
+                            </div>
+                            <div>
+                                <h3>Como chegar</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         );
     }
