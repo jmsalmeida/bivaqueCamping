@@ -8,6 +8,7 @@ import TituloCamping from '../components/TituloCamping/TituloCamping';
 // Icons
 import wireless from '../icons/wifi.svg'
 import InfoCampingIcon from '../components/InfoCampingImage/InfoCampingIcon';
+import Regras from '../components/Regras/Regras';
 
 class InfoCampingPage extends Component {
     render() {
@@ -29,7 +30,9 @@ class InfoCampingPage extends Component {
                             </div>
                             <h3>Regras</h3>
                             <div>
-                                
+                                <Regras regras="Regra"/>
+                                <Regras regras="Regra"/>
+                                <Regras regras="Regra"/>
                             </div>
                         </div>
                         <div className="y-bar"></div>
@@ -42,6 +45,7 @@ class InfoCampingPage extends Component {
                             </div>
                             <div>
                                 <h3>Como chegar</h3>
+                                
                             </div>
                         </div>
                     </div>
