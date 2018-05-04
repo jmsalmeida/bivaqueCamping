@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 // CSS
 import './css/SearchPage.css'
 import CampingRecomendado from '../components/ImagemCamping/CampingRecomendado';
@@ -18,7 +19,9 @@ class SearchPage extends Component {
                     <BtnFilter title="filtro"/>
                 </div>
                     <div className="searchs">
+                    <Link to="/info-camping">
                         <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
+                    </Link>
                         <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
                         <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
                     </div>

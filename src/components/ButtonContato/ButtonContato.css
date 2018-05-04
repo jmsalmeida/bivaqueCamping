@@ -1,0 +1,15 @@
+.button-contato {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-contato button{
+    background-color: #6EBF00;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
