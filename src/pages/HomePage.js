@@ -6,14 +6,16 @@ import CampingRecomendado from '../components/ImagemCamping/CampingRecomendado';
 import './css/HomePage.css'
 // Images
 import campingIMG from '../components/Pesquisa/images/camp.jpg';
+import Menu from '../components/Menu/Menu';
 
 
 class HomePage extends Component {
     render() {
         return (
             <div className="home-page">
+            <Menu />
                 <Pesquisa />
-                <div className="container">
+                <div className="caixa">
                     <h2 style={{ color: '#6EBF00' }}>Recomendado</h2>
                     <div className="recomendado">
                         <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />

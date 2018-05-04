@@ -12,7 +12,6 @@ class App extends Component {
         <Route path="/" exact component={ () => <HomePage /> } />
         <Route path="/camping-search" exact component={ () => <SearchPage /> } />
         <Route path="/info-camping" exact component={ () => <InfoCampingPage /> } />
-
       </div>
     );
   }
