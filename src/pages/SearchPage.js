@@ -11,7 +11,7 @@ class SearchPage extends Component {
     render(){
         return(
             <div className="search-camping">
-                <div className="container">
+                <div className="caixa">
                 <div className="filter-buttons">
                     <BtnFilter title="filtro"/>
                     <BtnFilter title="filtro"/>

@@ -8,9 +8,17 @@ import TituloCamping from '../components/TituloCamping/TituloCamping';
 import InfoCampingIcon from '../components/InfoCampingIcon/InfoCampingIcon';
 import Regras from '../components/Regras/Regras';
 import Endereco from '../components/Endereco/Endereco';
-// Icons
-import wireless from '../icons/wifi.svg'
 import ButtonContato from '../components/ButtonContato/ButtonContato';
+// Icons
+import wireless from '../icons/wifi.svg';
+import mapa from '../icons/mapa.svg';
+import notebook from '../icons/notebook.svg';
+import market from '../icons/supermercado.svg';
+import periodo from '../icons/24h.svg';
+import posto from '../icons/posto.svg';
+
+
+
 
 
 class InfoCampingPage extends Component {
@@ -19,7 +27,7 @@ class InfoCampingPage extends Component {
         return (
             <div className="info-page">
                 <CarouselFotosCamping />
-                <div className="container">
+                <div className="caixa">
                     <TituloCamping titulo="Camping das pedras" cidade="Itu - São Paulo" />
                     <h3>O espaço</h3>
                     <SobreCamping sobre={sobreTxt} />
@@ -28,8 +36,8 @@ class InfoCampingPage extends Component {
                             <h3>Comodidades</h3>
                             <div className="comod-icons">
                                 <InfoCampingIcon icon={wireless} />
-                                <InfoCampingIcon icon={wireless} />
-                                <InfoCampingIcon icon={wireless} />
+                                <InfoCampingIcon icon={notebook} />
+                                <InfoCampingIcon icon={periodo} />
                             </div>
                             <h3>Regras</h3>
                             <div>
@@ -42,9 +50,9 @@ class InfoCampingPage extends Component {
                         <div className="right-column">
                             <h3>Proximidades</h3>
                             <div className="comod-icons">
-                                <InfoCampingIcon icon={wireless} />
-                                <InfoCampingIcon icon={wireless} />
-                                <InfoCampingIcon icon={wireless} />
+                                <InfoCampingIcon icon={mapa} />
+                                <InfoCampingIcon icon={posto} />
+                                <InfoCampingIcon icon={market} />
                             </div>
                             <h3>Como chegar</h3>
                             <div>
