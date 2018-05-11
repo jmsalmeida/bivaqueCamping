@@ -15,21 +15,23 @@ class HomePage extends Component {
             <div className="home-page">
             <Menu />
                 <Pesquisa />
-                <div className="caixa">
-                    <h2 style={{ color: '#6EBF00' }}>Recomendado</h2>
-                    <div className="recomendado">
-                        <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
-                    </div>
+                <section className="camping-ads">
+                    <div className="caixa">
+                        <h2 style={{ color: '#6EBF00' }}>Recomendado</h2>
+                        <div className="recomendado">
+                            <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                            <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                            <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                        </div>
 
-                    <h2 style={{ color: '#6EBF00' }}>Mais visitados</h2>
-                    <div className="recomendado">
-                        <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                        <h2 style={{ color: '#6EBF00' }}>Mais visitados</h2>
+                        <div className="recomendado">
+                            <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                            <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                            <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                        </div>
                     </div>
-                </div>
+                </section>
             </div>
         )
     }

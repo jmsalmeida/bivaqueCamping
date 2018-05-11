@@ -8,33 +8,36 @@ import camping from '../components/Pesquisa/images/camp.jpg';
 import BtnFilter from '../components/filter/BtnFilter';
 
 class SearchPage extends Component {
-    render(){
-        return(
+    render() {
+        return (
             <div className="search-camping">
                 <div className="caixa">
-                <div className="filter-buttons">
-                    <BtnFilter title="filtro"/>
-                    <BtnFilter title="filtro"/>
-                    <BtnFilter title="filtro"/>
-                    <BtnFilter title="filtro"/>
-                </div>
-                    <div className="searchs">
-                    <Link to="/info-camping">
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                    </Link>
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                    </div>
-                    <div className="searchs">
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                    </div>
-                    <div className="searchs">
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                        <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
-                    </div>
+                    <section className="search">
+                        <div className="filter-buttons">
+                            <BtnFilter title="filtro" />
+                            <BtnFilter title="filtro" />
+                            <BtnFilter title="filtro" />
+                            <BtnFilter title="filtro" />
+                        </div>
+
+                        <div className="searchs">
+                            <Link to="/info-camping">
+                                <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
+                            </Link>
+                            <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
+                            <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
+                        </div>
+                        <div className="searchs">
+                            <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
+                            <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
+                            <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
+                        </div>
+                        <div className="searchs">
+                            <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
+                            <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
+                            <CampingRecomendado image={camping} title={'Acampamento das Comadres'} />
+                        </div>
+                    </section>
                 </div>
             </div>
         );

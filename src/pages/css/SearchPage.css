@@ -1,3 +1,7 @@
+section.search{
+    padding: 50px 0;
+}
+
 .filter-buttons {
     display: flex;
     justify-content: flex-start;
@@ -15,7 +19,8 @@
 }
 
 .searchs h3{
-    padding-left: 20px;
+    padding: 20px 0 0 20px;
+    /* padding-left: 20px; */
 
 }
 
