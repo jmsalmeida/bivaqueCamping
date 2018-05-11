@@ -1,3 +1,6 @@
+section.camping-ads{
+    padding: 50px 0;
+}
 .recomendado {
     display: flex;
     justify-content: space-around;
@@ -10,7 +13,8 @@
 }
 
 .recomendado h3{
-   padding-left: 10px;
+   padding: 20px 0 0 10px; 
+   /* padding-left: 10px; */
 }
 
 div > h2 {

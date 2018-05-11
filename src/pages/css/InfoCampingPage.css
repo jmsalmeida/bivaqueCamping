@@ -1,6 +1,10 @@
+section.sobre-camping{
+    padding: 50px 0;
+}
+
 .info {
     display: flex;
-
+    padding-top: 20px;
 }
 
 .info .y-bar {
@@ -18,4 +22,7 @@
     margin: 10px 15px;
 }
 
+.caixa h3 {
+    padding-top: 30px;
+}
 
