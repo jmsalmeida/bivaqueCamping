@@ -13,3 +13,9 @@
     font-size: 12px;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 630px){
+    .button-contato {
+        justify-content: center;
+    }
+}

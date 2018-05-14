@@ -26,3 +26,21 @@ section.sobre-camping{
     padding-top: 30px;
 }
 
+@media screen and (max-width: 635px){
+    .info {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .info .y-bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .info .y-bar {
+        margin: 10px 15px 10px 40px;
+    }
+}
+
+

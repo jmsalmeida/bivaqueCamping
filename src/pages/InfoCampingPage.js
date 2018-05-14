@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // CSS
 import './css/InfoCampingPage.css';
 // Components
+import MenuBuscar from '../components/MenuBuscar/MenuBuscar';
 import CarouselFotosCamping from '../components/CarouselFotosCamping/CarouselFotosCamping';
 import SobreCamping from '../components/SobreCamping/SobreCamping';
 import TituloCamping from '../components/TituloCamping/TituloCamping';
@@ -16,7 +17,7 @@ import notebook from '../icons/notebook.svg';
 import market from '../icons/supermercado.svg';
 import periodo from '../icons/24h.svg';
 import posto from '../icons/posto.svg';
-import MenuBuscar from '../components/MenuBuscar/MenuBuscar';
+
 
 class InfoCampingPage extends Component {
     render() {

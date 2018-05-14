@@ -26,13 +26,38 @@
 .footer2 {
     display: flex;
     justify-content: center;
+    align-items: center;
     border-top: 0.03px solid white;
     margin: 20px 120px;
-    
 }
 
 .footer2 img{
     margin-top: 20px;
     width: 100px;
-    height: 30px;
+    /* height: 30px; */
+}
+
+@media screen and (max-width: 590px){
+    .flex{
+        justify-content: center;
+    }
+
+    .flex > div a{
+        display: none;
+    }
+
+    .flex > div h3{
+        display: none;
+    }
+
+    .icon-social {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+    }
+
+    .footer2 {
+        margin: 20px 30px;
+    }   
 }
