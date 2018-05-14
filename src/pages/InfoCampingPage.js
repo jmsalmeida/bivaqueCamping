@@ -16,16 +16,14 @@ import notebook from '../icons/notebook.svg';
 import market from '../icons/supermercado.svg';
 import periodo from '../icons/24h.svg';
 import posto from '../icons/posto.svg';
-
-
-
-
+import MenuBuscar from '../components/MenuBuscar/MenuBuscar';
 
 class InfoCampingPage extends Component {
     render() {
         let sobreTxt = 'A Fazenda das Pedras já tem 38 anos de atividade turistica, administrada pelas filhas de Ditinha e Luizinho (já falecidos).Possui sessenta chalés e oferece comodidade e contato com a natureza, além de restaurante (inaugurado em 1983), lanchonete, área de camping e Day Use para grupos da melhor idade e escolas. Está apta a realizar eventos coorporativos, formaturas e casamentos, com competência e criatividade.'
         return (
             <div className="info-page">
+            <MenuBuscar/>
                 <CarouselFotosCamping />
                 <section className="sobre-camping">
                     <div className="caixa">

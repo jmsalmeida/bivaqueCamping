@@ -6,11 +6,13 @@ import CampingRecomendado from '../components/ImagemCamping/CampingRecomendado';
 // IMG
 import camping from '../components/Pesquisa/images/camp.jpg';
 import BtnFilter from '../components/filter/BtnFilter';
+import MenuBuscar from '../components/MenuBuscar/MenuBuscar';
 
 class SearchPage extends Component {
     render() {
         return (
             <div className="search-camping">
+                <MenuBuscar/>
                 <div className="caixa">
                     <section className="search">
                         <div className="filter-buttons">
