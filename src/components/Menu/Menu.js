@@ -20,15 +20,18 @@ class Menu extends Component {
                         <Link to="/dicas">
                             <a>Dicas</a>
                         </Link>
-                        
-                            <a onClick={this.props.alternarModal}>Entrar</a>
-                        
+                        <Link to="/login-cadastro">
+                            <a>Entrar</a>
+                        </Link>
+
+                        <a onClick={this.props.alternarModal}>openModal</a>
+
                     </div>
                     <span className="menu600"><i className="fas fa-bars"></i></span>
                 </nav>
             </header>
-                );
-            }
-        }
-        
-        export default Menu;
+        );
+    }
+}
+
+export default Menu;
