@@ -5,11 +5,6 @@ import logo from './images/logo.png';
 
 class Menu extends Component {
 
-    AbrirMenu() {
-        
-        document.getElementsByClassName("opitions").style.display = "flex";
-    }
-
     render() {
         return (
             <header>
@@ -18,16 +13,22 @@ class Menu extends Component {
                         <img src={logo} alt="logo" />
                     </div>
 
-                    <div class="opitions">
-                        <a href="#">Cadastre seu camping</a>
-                        <Link to="/dicas"><a href="#">Dicas</a></Link>
-                        <a href="#">Entrar</a>
+                    <div className="options">
+                        <Link to="/">
+                            <a>Cadastre seu camping</a>
+                        </Link>
+                        <Link to="/dicas">
+                            <a>Dicas</a>
+                        </Link>
+                        
+                            <a onClick={this.props.alternarModal}>Entrar</a>
+                        
                     </div>
-                    <span class="menu600"><i class="fas fa-bars"></i></span>
+                    <span className="menu600"><i className="fas fa-bars"></i></span>
                 </nav>
             </header>
-        );
-    }
-}
-
-export default Menu;
+                );
+            }
+        }
+        
+        export default Menu;

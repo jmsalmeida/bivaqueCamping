@@ -7,13 +7,26 @@ import './css/HomePage.css'
 // Images
 import campingIMG from '../components/Pesquisa/images/camp.jpg';
 import Menu from '../components/Menu/Menu';
+import Modal from '../components/Modal/Modal';
+
 
 
 class HomePage extends Component {
+    componentWillMount = () => {
+        this.setState({modalAtivo: false});
+    }
+    
+    alternarModal = () => {
+        let ativo = !this.state.modalAtivo;
+
+        this.setState({modalAtivo: ativo});
+    }
+
     render() {
         return (
             <div className="home-page">
-            <Menu />
+                <Menu alternarModal={this.alternarModal}/>
+                <Modal ativo={this.state.modalAtivo} />
                 <Pesquisa />
                 <section className="camping-ads">
                     <div className="caixa">

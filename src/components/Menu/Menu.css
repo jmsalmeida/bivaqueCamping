@@ -35,6 +35,7 @@ header nav div a {
     padding: 0px 10px;
     /* font-family: 'Tajawal', sans-serif; */
     color: white;
+    cursor: pointer;
     
 }
 
@@ -61,11 +62,10 @@ padding-right: 10%;
 
 /* MEDIAS  */
 
-@media (max-width: 600px) 
-{
-    .opitions{
-    display: none;
-   }
+@media (max-width: 600px) {
+    .options{
+        display: none;
+    }
 
    .menu600{
        display: block;
