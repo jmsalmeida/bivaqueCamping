@@ -9,9 +9,6 @@ import campingIMG from '../components/Pesquisa/images/camp.jpg';
 import Menu from '../components/Menu/Menu';
 import Modal from '../components/Modal/Modal';
 
-
-
-
 class HomePage extends Component {
     componentWillMount = () => {
         this.setState({modalAtivo: false});
@@ -33,16 +30,20 @@ class HomePage extends Component {
                     <div className="caixa">
                         <h2 style={{ color: '#6EBF00' }}>Recomendado</h2>
                         <div className="recomendado">
+                            <span className="setas"><i class="fas fa-angle-left"></i></span>
                             <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
                             <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
                             <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                            <span className="setas"><i class="fas fa-angle-right"></i></span>
                         </div>
 
                         <h2 style={{ color: '#6EBF00' }}>Mais visitados</h2>
                         <div className="recomendado">
+                            <span className="setas"><i class="fas fa-angle-left"></i></span>
                             <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
                             <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
                             <CampingRecomendado image={campingIMG} title={'Acampamento das Comadres'} />
+                            <span className="setas"><i class="fas fa-angle-right"></i></span>
                         </div>
                     </div>
                 </section>
