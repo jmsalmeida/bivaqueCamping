@@ -4,11 +4,6 @@ import './MenuBuscar.css';
 import logo from './images/logo.png';
 
 class MenuBuscar extends Component {
-
-    AbrirMenu() {
-        document.getElementsByClassName("opitions").style.display = "flex";
-    }
-
     render() {
         return (
             <header>
@@ -20,7 +15,7 @@ class MenuBuscar extends Component {
                     </div>
                     <div class="opcoes">
                         <a>Cadastre seu camping</a>
-                        <a>Cadastre-se</a>
+                        <a>Dicas</a>
                         <a>Entrar</a>
                     </div>
                     <span class="menu600"><i class="fas fa-bars"></i></span>
