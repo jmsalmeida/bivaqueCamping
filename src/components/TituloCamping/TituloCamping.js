@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './TituloCamping.css';
 
+import estrelas from './images/5estrelas.png';
+
 class TituloCamping extends Component {
     render(){
         let titulo = this.props.titulo;
@@ -9,6 +11,7 @@ class TituloCamping extends Component {
             <div className="titulo-camping">
                 <h2>{titulo}</h2>
                 <p>{cidade}</p>
+                <img src={estrelas}/>
             </div>
         );
     }

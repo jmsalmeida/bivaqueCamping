@@ -10,3 +10,8 @@
 .titulo-camping p{
     margin: 0;
 }
+
+.titulo-camping img {
+    margin-top: 10px;
+    width: 120px;
+}

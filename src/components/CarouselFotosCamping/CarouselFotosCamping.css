@@ -5,4 +5,21 @@
     background-position: center;
     height: 500px;
     width: 100%;
+    margin-top: 40px;
+}
+
+/* .carousel-banner > div {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+} */
+
+.carousel-banner > div > strong{
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+    padding-top: 450px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
