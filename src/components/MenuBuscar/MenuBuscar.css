@@ -1,0 +1,89 @@
+/* nav */
+
+header .menu-buscar{   
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6EBF00; 
+    position: fixed;   
+    color: white; 
+    z-index: 999;
+}
+
+/* ancoras nav  */
+
+.opcoes {
+    padding: 0px 10px;
+}
+
+/* input */
+
+.menu-buscar div input{
+    height: 100%;
+    width: 80%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    padding: 5% 6% 5% 6%;
+    background-color: #96c40d;
+}
+
+/* input clicado  */
+
+header nav div input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+/* logo  */
+
+header nav  img {
+    height: 30px;
+    width: auto;
+    padding-left: 50px;
+}
+
+/* falso input de busca  */
+
+.busca {
+    height: 10%;
+    width: 25%;
+    padding: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #96c40d;
+    text-shadow: none;
+    border: solid whitesmoke 0.01px;
+    border-radius: 15px 50px 30px 5px;
+}
+
+/* menu reponsivo  */
+
+.menu600{
+    display: none;
+}
+
+/* MEDIAS  */
+
+@media (max-width: 675px) {
+    .opcoes{
+        display: none;
+    }
+
+    .menu600{
+
+        display: block;
+        padding-right: 2%;
+        font-size: 25px;
+    }
+
+    .busca {
+        height: 10%;
+        width: 50%;
+    }
+}

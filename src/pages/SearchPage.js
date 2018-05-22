@@ -6,6 +6,7 @@ import CampingRecomendado from '../components/ImagemCamping/CampingRecomendado';
 // IMG
 import camping from '../components/Pesquisa/images/camp.jpg';
 import BtnFilter from '../components/filter/BtnFilter';
+
 // import MenuBuscar from '../components/MenuBuscar/MenuBuscar';
 
 import camping1 from './images/campings/1.jpg';
@@ -23,6 +24,7 @@ class SearchPage extends Component {
         return (
             <div className="search-camping">
                 {/* <MenuBuscar/> */}
+
                 <div className="caixa">
                     <section className="search">
                         <div className="filter-buttons">

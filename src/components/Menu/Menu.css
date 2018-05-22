@@ -1,0 +1,74 @@
+/* header */
+
+header{
+    border-bottom: solid #6EBF00 1px;
+    
+}
+
+/* nav */
+
+header nav{
+     
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #6EBF00; */
+    position: fixed;
+
+
+}
+
+/* divs do pai 'nav' */
+
+header nav div {
+    padding: 15px;
+    font-size: 120%;
+}
+
+/* ancoras nav  */
+
+header nav div a {
+    padding: 0px 10px;
+    /* font-family: 'Tajawal', sans-serif; */
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header nav div a:hover {
+    color: white;
+}
+/* 
+header nav div  a:hover { border: 2px solid black; } */
+
+/* logo  */
+
+header nav div img {
+height: 30px;
+width: 30px;
+padding-right: 10%;
+
+}
+
+/* menu reponsivo  */
+
+.menu600{
+    display: none;
+}
+
+/* MEDIAS  */
+
+@media (max-width: 600px) {
+    .options{
+        display: none;
+    }
+
+   .menu600{
+       display: block;
+       margin-right: 5%;
+       font-size: 25px;
+   }
+}
