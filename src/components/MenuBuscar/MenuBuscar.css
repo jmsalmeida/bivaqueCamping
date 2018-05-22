@@ -8,7 +8,9 @@ header .menu-buscar{
     display: flex;
     justify-content: space-between;
     background-color: #6EBF00; 
-    position: fixed;   color: white; 
+    position: fixed;   
+    color: white; 
+    z-index: 999;
 }
 
 /* ancoras nav  */
