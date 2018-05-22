@@ -11,6 +11,7 @@ import Modal from '../components/Modal/Modal';
 
 
 
+
 class HomePage extends Component {
     componentWillMount = () => {
         this.setState({modalAtivo: false});

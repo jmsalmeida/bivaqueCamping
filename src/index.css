@@ -7,6 +7,10 @@ body {
   font-size: 12pt;
 }
 
+section {
+  padding: 50px 0;
+}
+
 h1{
   font-family: 'Exo 2', sans-serif;
   font-weight: 700;

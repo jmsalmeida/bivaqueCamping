@@ -16,18 +16,16 @@ class Menu extends Component {
                         <Link to="/">
                             <a>Cadastre seu camping</a>
                         </Link>
-                        <Link to="/dicas">
-                            <a>Dicas</a>
+                            <a onClick={this.props.alternarModal}>Entrar</a>    
+                        <Link to="/login-cadastro">
+                            <a>Entrar</a>
                         </Link>
-                        
-                            <a onClick={this.props.alternarModal}>Entrar</a>
-                    
                     </div>
                     <span className="menu600"><i className="fas fa-bars"></i></span>
                 </nav>
             </header>
-                );
-            }
-        }
-        
-        export default Menu;
+        );
+    }
+}
+
+export default Menu;
