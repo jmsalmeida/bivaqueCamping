@@ -4,9 +4,16 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage.js';
 import SearchPage from './pages/SearchPage';
 import InfoCampingPage from './pages/InfoCampingPage.js';
+
+import LoginPage from './pages/LoginPage.js';
+
+import Footer from './components/Footer/Footer.js';
+
+
 import DicasPage from './pages/DicasPage.js';
 import LoginPage from './pages/LoginPage.js';
 import Footer from './components/Footer/Footer.js';
+
 
 class App extends Component {
   render() {
@@ -15,7 +22,9 @@ class App extends Component {
         <Route path="/" exact component={ () => <HomePage /> } />
         <Route path="/camping-search" exact component={ () => <SearchPage /> } />
         <Route path="/info-camping" exact component={ () => <InfoCampingPage /> } />
+
         <Route path="/dicas" exact component={ () => <DicasPage/> } />
+
         <Route path="/login-cadastro" exact component={ () => <LoginPage /> } />
         <Footer/>
       </div>

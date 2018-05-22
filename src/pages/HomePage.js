@@ -12,7 +12,8 @@ import camping4 from './images/campings/4.jpg';
 import camping5 from './images/campings/5.jpg';
 import camping6 from './images/campings/6.jpg';
 
-import Menu from '../components/Menu/Menu';
+// import Menu from '../components/Menu/Menu';
+
 import Modal from '../components/Modal/Modal';
 
 class HomePage extends Component {
@@ -29,7 +30,9 @@ class HomePage extends Component {
     render() {
         return (
             <div className="home-page">
-                <Menu alternarModal={this.alternarModal} />
+
+                {/* <Menu alternarModal={this.alternarModal} /> */}
+
                 <Modal ativo={this.state.modalAtivo} />
                 <Pesquisa />
                 <section className="camping-ads">
