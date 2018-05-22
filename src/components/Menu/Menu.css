@@ -25,6 +25,9 @@ header nav{
 
 header nav div {
     padding: 15px;
+
+    font-size: 120%;
+
 }
 
 /* ancoras nav  */
@@ -33,6 +36,9 @@ header nav div a {
     padding: 0px 10px;
     /* font-family: 'Tajawal', sans-serif; */
     color: white;
+    cursor: pointer;
+    text-decoration: none;
+
 }
 
 

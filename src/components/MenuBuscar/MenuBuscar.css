@@ -42,7 +42,7 @@ header nav div input:focus, select:focus {
 header nav  img {
     height: 30px;
     width: auto;
-    padding-left: 1%;
+    padding-left: 50px;
 }
 
 /* falso input de busca  */

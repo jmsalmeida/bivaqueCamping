@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './Modal.css';
 
 import Login from '../Login/Login';
+
 class Modal extends Component {
 
     render(){
@@ -16,7 +17,7 @@ class Modal extends Component {
             <div>
                 <div className="caixa">
                     <div onClick={this.showModal} className={modalCSS}>
-                       {/* <Login/> */}
+                       <Login/>
                     </div>
                 </div>
             </div>

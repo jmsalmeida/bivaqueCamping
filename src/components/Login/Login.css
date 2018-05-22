@@ -1,16 +1,29 @@
+#mae{
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
 .acesso{margin: 0;
     display: flex;
     justify-content: space-evenly;
 }
-.logar{
-    font-size: 16px;
-      font-weight: 900;
-    color: #3C005E;
-    margin: 25px;
+.espacamento{
+    width: 40%;
+    margin: 0;
 }
-#{
-    height: 450px;
-    
+.align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.logar{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #3C005E;
+}
+#registro{
+    width: 100%
 }
 .caixas{
     align-items: center;
@@ -19,7 +32,6 @@
     box-sizing: border-box;
     border: 2px solid #6EBF00;
     height:auto;
-    width: 30%;
     border-radius: 25px;
 }
 .wface {
@@ -67,7 +79,7 @@
 }
 
 .wface img{
-    width: 30px;
+    width: 40px;
     height: 30px;
     padding-left: 10px;
 }
@@ -109,9 +121,7 @@
     color:  blue;
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
- 
-    
+    justify-content: space-between;   
  }
 .wgoogle p{
     margin: 0;
@@ -119,7 +129,7 @@
 }
 
 .wgoogle img{
-    width: 30px;
+    width: 40px;
     height: 30px;
     padding-left: 10px;
  }
@@ -128,27 +138,29 @@
     font-size: 16px;
     font-weight: 900;
   color: #3C005E;
-    margin: 50px;
+   margin: 10px 0px;
 }
 .inputflex{
      display: flex;
      flex-direction: column;
      width: 60%;    
 }
-
 .inputs{
     height: 30px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
      box-sizing: border-box;
      border: 0.6px solid #6EBF00;
      border-radius: 5px;
      padding: 2px;
 }
-
+.inputs::placeholder{
+    opacity: 0.8;
+}
  .agedate{
     display: flex;
     justify-content: space-between;
-    height: 30px;
+    padding: 0px;
+    height: 20px;
     margin-bottom: 8px;
 } 
 .agedate input {
@@ -158,7 +170,7 @@
 .aviso{
     margin: 4px 0px;
     font-size: 12px;
-    margin-bottom: 13px;
+    margin-bottom: 8px;
 }   
 
 
@@ -173,11 +185,10 @@
 }
 #enviobtn:active {
     background-color: #3e8e41;   
-    transform: translateY(4px);}
-
+    transform: translateY(4px);
+}
 .camping{
-    text-align: right;
-    margin-right: 174px;
+    font-size: 12px;
 }
 .camping a{
     text-decoration: none;
@@ -187,7 +198,8 @@
     color: #3e8e41;
 }
 .termos{
-    padding-top: 50px;
+    font-size: 12px;
+    padding:0px;
     text-align: center;
 }
 .termos a{
@@ -212,7 +224,7 @@
         width: 40%;
         }
     .inputs{font-size: 10px;}
-    .aviso{font-size: 10px;}
+    .aviso{font-size: 1px;}
     #login{
         height:330px;
     }
@@ -248,8 +260,6 @@
         }
         .logar{
             font-size: 12px;
-              font-weight: 900;
-            color: #3C005E;
             margin: 20px;
         }
         .ou{
@@ -258,28 +268,8 @@
                 color: #3C005E;
                 margin: 10px;
             }
-            .camping{
-                text-align: right;
-                margin-right: 50px;
-                font-size: 12px;
-            }
-            .termos{
-                font-size: 12px;
-            }
-       
+        
         }
 
 
 
-@media only screen and (max-width: 455px){
-    .caixas{
-    width: 50%;
-    }
-    .ou{font-size: 10px;}
-    .logar{font-size: 10px;}
-    .camping{
-        text-align: right;
-        margin-right: 15px;
-        }
-    
-}

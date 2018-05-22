@@ -13,7 +13,7 @@ class Footer extends Component {
                 <div className="caixa">
                     <div className="flex">
                         <div>
-                            <h3>Bivaque.Inc</h3>
+                            <h3>Bivaque</h3>
                             <a href="#">Carreiras</a>
                             <a href="#">Imprensa</a>
                             <a href="#">Ajuda</a>
@@ -21,7 +21,7 @@ class Footer extends Component {
                             <a href="#">Dados da Empresa</a>
                         </div>
                         <div>
-                            <h3>Bivaque.Inc</h3>
+                            <h3>Descubra</h3>
                             <a href="#">Guia de Acampamento</a>
                             <a href="#">Confiança e Segurança</a>
                             <a href="#">Convidar Amigos</a>
