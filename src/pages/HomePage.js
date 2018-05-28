@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+// CSS
+import './css/HomePage.css'
 // Components
 import Pesquisa from '../components/Pesquisa/Pesquisa';
 import CampingRecomendado from '../components/ImagemCamping/CampingRecomendado';
-// CSS
-import './css/HomePage.css'
+import Menu from '../components/Menu/Menu';
+import Modal from '../components/Modal/Modal';
 // Images
 import camping1 from './images/campings/1.jpg';
 import camping2 from './images/campings/2.jpg';
@@ -12,9 +14,7 @@ import camping4 from './images/campings/4.jpg';
 import camping5 from './images/campings/5.jpg';
 import camping6 from './images/campings/6.jpg';
 
-// import Menu from '../components/Menu/Menu';
 
-import Modal from '../components/Modal/Modal';
 
 class HomePage extends Component {
     componentWillMount = () => {
@@ -31,9 +31,9 @@ class HomePage extends Component {
         return (
             <div className="home-page">
 
-                {/* <Menu alternarModal={this.alternarModal} /> */}
+                <Menu alternarModal={this.alternarModal} />
 
-                <Modal ativo={this.state.modalAtivo} />
+                <Modal ativo={this.state.modalAtivo} alternarModal={this.alternarModal}/>
                 <Pesquisa />
                 <section className="camping-ads">
                     <div className="caixa">

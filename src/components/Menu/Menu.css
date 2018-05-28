@@ -1,0 +1,22 @@
+.header{
+    padding: 5px 50px;
+    position: fixed;
+    width: 95%;
+}
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-desktop img {
+    width: 40px;
+}
+
+.menu-desktop a{
+    margin: 0 10px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.726);
+}
