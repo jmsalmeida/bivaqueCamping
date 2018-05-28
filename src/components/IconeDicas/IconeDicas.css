@@ -1,0 +1,10 @@
+.icone-dicas img {
+    width: 180px;
+    margin: 0 50px;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    
+}
