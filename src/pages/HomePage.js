@@ -33,7 +33,7 @@ class HomePage extends Component {
 
                 <Menu alternarModal={this.alternarModal} />
 
-                <Modal ativo={this.state.modalAtivo} />
+                <Modal ativo={this.state.modalAtivo} alternarModal={this.alternarModal}/>
                 <Pesquisa />
                 <section className="camping-ads">
                     <div className="caixa">

@@ -1,7 +1,7 @@
 .modal-style {
     width: 1000px;
     height: 605px;
-    margin: 20px auto;
+    margin: 20px 0;
     position: fixed;
     z-index: 999;
     background-color: white;
@@ -15,4 +15,12 @@
 .ativo {
     opacity: 1;
     transform: translateY(0);
+}
+
+.fechar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px 0 0;
+    cursor: pointer;
+    font-size: 18px;
 }

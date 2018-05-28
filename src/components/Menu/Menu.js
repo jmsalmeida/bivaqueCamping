@@ -13,7 +13,7 @@ class Menu extends Component {
                     <ul>
                         <a>Cadastre seu camping</a>
                         <a>Dicas</a>
-                        <a>Entrar</a>
+                        <a onClick={this.props.alternarModal}>Entrar</a>
                     </ul>
                 </nav>
             </header>
