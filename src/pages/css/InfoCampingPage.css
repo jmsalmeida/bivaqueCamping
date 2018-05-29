@@ -22,8 +22,9 @@ section.sobre-camping{
     margin: 10px 15px;
 }
 
-.caixa h3 {
+.info h3 {
     padding-top: 30px;
+    color: #3C005E;
 }
 
 .btn-contato a{

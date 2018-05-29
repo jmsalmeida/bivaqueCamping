@@ -1,10 +1,28 @@
+.dicas h2 {
+    text-align: center;
+    color: #6EBF00;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 26pt;
+}
+
+.dicas p {
+    text-align: center;
+    margin: 0 80px;
+}
+
+.icone-dicas {
+    padding: 100px 0;
+}
+
 .icone-dicas img {
     width: 180px;
     margin: 0 50px;
+    cursor: pointer;
 }
 
-.icones {
-    display: flex;
-    justify-content: center;
-    
+.icone-dicas h3 {
+    text-align: center;
+    padding: 0;
+    color: #3C005E;
 }
