@@ -7,6 +7,7 @@ import IconeDicas from '../components/IconeDicas/IconeDicas';
 import arvore from './images/icone-dicas/arvore.svg';
 import seguranca from './images/icone-dicas/seguranca.svg';
 import bagagem from './images/icone-dicas/bagagem.svg';
+import ModalDicas from '../components/ModalDicas/ModalDicas';
 
 class DicasPage extends Component {
     render() {
@@ -16,6 +17,9 @@ class DicasPage extends Component {
                     <h2>Guia do Campista</h2>
                     <p>Olá, seja bem vindo!<br />
                         Aqui selecionamos algumas dicas para você relembrar ou saber o que é necessário para uma boa viagem sem nenhuma surpresa indesejada no meio da sua viagem.</p>
+                    
+                    <ModalDicas />
+
                     <div className="single-icon">
                         <IconeDicas dica={bagagem} titulo={'Bagagem'} />
                         <IconeDicas dica={seguranca} titulo={'Segurança'} />
