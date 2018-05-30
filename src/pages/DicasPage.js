@@ -21,7 +21,7 @@ class DicasPage extends Component {
 
         this.setState({modalAtivo: ativo});
     }
-
+    
     render() {
         return (
             <div className="dicas">
@@ -30,10 +30,10 @@ class DicasPage extends Component {
                     <p>Olá, seja bem vindo!<br />
                         Aqui selecionamos algumas dicas para você relembrar ou saber o que é necessário para uma boa viagem sem nenhuma surpresa indesejada no meio da sua viagem.</p>
                     
-                    <ModalDicas ativo={this.state.modalAtivo} alternarModal={this.alternarModal}/>
+                    <ModalDicas ativo={this.state.modalAtivo} alternarModal={this.alternarModal} nomeDica={'teste'}/>
 
                     <div className="single-icon">
-                        <IconeDicas alternarModal={this.alternarModal} dica={bagagem} titulo={'Bagagem'} />
+                        <IconeDicas alternarModal={this.alternarModal} dica={bagagem} titulo={'Bagagem'}/>
                         <IconeDicas alternarModal={this.alternarModal} dica={seguranca} titulo={'Segurança'} />
                         <IconeDicas alternarModal={this.alternarModal} dica={arvore} titulo={'Meio Ambiente'} />
                     </div>
