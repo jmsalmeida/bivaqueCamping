@@ -19,6 +19,9 @@ class ModalDicas extends Component {
         return (
             <div>
                 <div className={modalDicasCSS}>
+                    <div className="fechar">
+                        <a onClick={this.props.alternarModal}><i className="fas fa-times"></i></a>
+                    </div>
                     <IconeDicas dica={bagagem} />
                     <h3>Nome da Modal que abriu</h3>
                     <div className="itens-dicas">

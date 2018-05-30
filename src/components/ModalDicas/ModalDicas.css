@@ -13,12 +13,17 @@
     justify-content: space-evenly;
     transition: .5s ease-in-out;
     opacity: 0;
-    transform: translateY(-40%);
+    transform: translateY(-100%);
 }
 
 .ativo {
     opacity: 1;
     transform: translate(-50%, -35%);
+}
+
+.modal-dicas .fechar {
+    position: absolute;
+    top: 0; right: 0;
 }
 
 .modal-dicas img {
