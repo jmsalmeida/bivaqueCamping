@@ -11,6 +11,14 @@
     z-index: 999;
     display: flex;
     justify-content: space-evenly;
+    transition: .5s ease-in-out;
+    opacity: 0;
+    transform: translateY(-40%);
+}
+
+.ativo {
+    opacity: 1;
+    transform: translate(-50%, -35%);
 }
 
 .modal-dicas img {

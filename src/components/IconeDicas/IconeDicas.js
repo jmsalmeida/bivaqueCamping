@@ -8,7 +8,7 @@ class IconeDicas extends Component {
 
         return(
             <div className="icone-dicas">
-                <img src={dica}/>
+                <img onClick={this.props.alternarModal} src={dica}/>
                 <h3>{titulo}</h3>
             </div>
         );

@@ -12,6 +12,10 @@ class ModalDicas extends Component {
     render() {
         let modalDicasCSS = 'modal-dicas';
 
+        if(this.props.ativo){
+            modalDicasCSS += ' ativo'
+        }
+
         return (
             <div>
                 <div className={modalDicasCSS}>
