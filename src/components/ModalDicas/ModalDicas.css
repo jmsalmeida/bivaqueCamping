@@ -1,6 +1,6 @@
 .modal-dicas {
     width: 800px;
-    height: 350px;
+    height: 280px;
     background-color: white;
     box-shadow: 8px 5px rgba(0, 0, 0, 0.226);
     border-radius: 0 3px 8px 3px;
@@ -9,4 +9,38 @@
     top: 50%;left: 50%;
     transform: translate(-50%, -35%);
     z-index: 999;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal-dicas img {
+    width: 200px;
+    margin: 50px 0;
+    position: absolute;
+    top: 0;left: 0;
+}
+
+.modal-dicas h3 {
+    margin: 50px 0;
+    position: absolute;
+    top: 0;left: 30%;
+}
+
+.itens-dicas ul {
+    position: absolute;
+    top: 25%; left: 28%;
+}
+
+.bolinhas-navegar {
+    display: flex;
+    position: absolute;
+    bottom: 10%; left: 50%;
+}
+
+.bolinhas-navegar div {
+    width: 10px;
+    height: 10px;
+    background-color: #6EBF00;
+    margin: 0 5px;
+    border-radius: 5px 5px;
 }
