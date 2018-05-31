@@ -30,7 +30,7 @@ class DicasPage extends Component {
                     <p>Olá, seja bem vindo!<br />
                         Aqui selecionamos algumas dicas para você relembrar ou saber o que é necessário para uma boa viagem sem nenhuma surpresa indesejada no meio da sua viagem.</p>
                     
-                    <ModalDicas ativo={this.state.modalAtivo} alternarModal={this.alternarModal} nomeDica={'teste'}/>
+                    <ModalDicas ativo={this.state.modalAtivo} alternarModal={this.alternarModal}/>
 
                     <div className="single-icon">
                         <IconeDicas alternarModal={this.alternarModal} dica={bagagem} titulo={'Bagagem'}/>

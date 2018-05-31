@@ -22,8 +22,7 @@ class ModalDicas extends Component {
                     <div className="fechar">
                         <a onClick={this.props.alternarModal}><i className="fas fa-times"></i></a>
                     </div>
-                    <IconeDicas dica={bagagem} />
-                    <h3>{this.props.nomeDica}</h3>
+                    <IconeDicas dica={bagagem} titulo={'teta'}/>
                     <div className="itens-dicas">
                         <ul>
                             <li>aqui</li>
