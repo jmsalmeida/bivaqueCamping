@@ -21,7 +21,7 @@ class HomePage extends Component {
         this.setState({modalAtivo: false});
     }
     
-    alternarModal = () => {
+    showComponent = () => {
         let ativo = !this.state.modalAtivo;
 
         this.setState({modalAtivo: ativo});
