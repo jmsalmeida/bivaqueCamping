@@ -6,7 +6,7 @@ class Pesquisa extends Component {
     render() {
         return (
             <div id="home-bg">
-                <div className="caixa">
+                <div className="container">
                     <div className="caixa-pesquisa">
                         <h2>Encontre o camping ideal para sua viagem</h2>
                         <form>

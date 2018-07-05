@@ -7,7 +7,6 @@ import InfoCampingPage from './pages/InfoCampingPage.js';
 
 
 import DicasPage from './pages/DicasPage.js';
-import LoginPage from './pages/LoginPage.js';
 import Footer from './components/Footer/Footer.js';
 
 
@@ -19,7 +18,6 @@ class App extends Component {
         <Route path="/camping-search" exact component={ () => <SearchPage /> } />
         <Route path="/info-camping" exact component={ () => <InfoCampingPage /> } />
         <Route path="/dicas" exact component={ () => <DicasPage/> } />
-        <Route path="/login-cadastro" exact component={ () => <LoginPage /> } />
         <Footer/>
       </div>
     );

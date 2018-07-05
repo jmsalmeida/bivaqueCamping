@@ -25,7 +25,7 @@ class DicasPage extends Component {
     render() {
         return (
             <div className="dicas">
-                <div className="caixa">
+                <div className="container">
                     <h2>Guia do Campista</h2>
                     <p>Olá, seja bem vindo!<br />
                         Aqui selecionamos algumas dicas para você relembrar ou saber o que é necessário para uma boa viagem sem nenhuma surpresa indesejada no meio da sua viagem.</p>

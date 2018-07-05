@@ -25,7 +25,7 @@ class SearchPage extends Component {
             <div className="search-camping">
                 {/* <MenuBuscar/> */}
 
-                <div className="caixa">
+                <div className="container">
                     <section className="search">
                         <div className="filter-buttons">
                             <BtnFilter title="Localização" />

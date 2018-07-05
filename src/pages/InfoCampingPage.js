@@ -32,7 +32,7 @@ class InfoCampingPage extends Component {
 
                 <CarouselFotosCamping />
                 <section className="sobre-camping">
-                    <div className="caixa">
+                    <div className="container">
                         <TituloCamping titulo="Camping das pedras" cidade="Itu - São Paulo" />
                         <h3>O espaço</h3>
                         <SobreCamping sobre={sobreTxt} />

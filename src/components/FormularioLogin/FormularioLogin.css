@@ -1,0 +1,45 @@
+.formulario-login {
+  text-align: center;
+}
+.formulario-login button, input{
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.formulario-login button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+.formulario-login button i {
+  font-size: 30px;
+  margin-right: 30px;
+}
+
+.formulario-login button:nth-child(2){
+  background-color: #306AAD;
+}
+
+.formulario-login button:nth-child(3){
+  background-color: #EB2E2C;
+}
+
+.formulario-login button:nth-child(7){
+  background-color: #6EBF00;
+}
+
+.formulario-login input{
+  border: 1px solid #6EBF00;
+}
+
+.formulario-login ::placeholder{
+  padding: 5px;
+}

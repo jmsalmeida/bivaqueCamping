@@ -10,7 +10,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <div className="caixa">
+                <div className="container">
                     <div className="flex">
                         <div>
                             <h3>Bivaque</h3>

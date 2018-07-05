@@ -18,7 +18,7 @@ import camping6 from './images/campings/6.jpg';
 
 class HomePage extends Component {
     componentWillMount = () => {
-        this.setState({modalAtivo: false});
+        this.setState({modalAtivo: true});
     }
     
     alternarModal = () => {
@@ -36,7 +36,7 @@ class HomePage extends Component {
                 <Modal ativo={this.state.modalAtivo} alternarModal={this.alternarModal}/>
                 <Pesquisa />
                 <section className="camping-ads">
-                    <div className="caixa">
+                    <div className="container">
                         <h2 style={{ color: '#6EBF00' }}>Recomendado</h2>
                         <div className="recomendado">
                             <span className="setas"><i class="fas fa-angle-left"></i></span>

@@ -7,7 +7,7 @@ import ConteudoModalLoginCadastro from '../ConteudoModalLoginCadastro/ConteudoMo
 
 class Modal extends Component {
     componentWillMount = () => {
-        this.setState({atual: ""});
+        this.setState({atual: "login"});
     }
     
     abrirLogin = () => {
@@ -28,7 +28,7 @@ class Modal extends Component {
 
         return (
             <div>
-                <div className="caixa">
+                <div className="container">
                     <div className={modalCSS}>
                         <ControladorLoginCadastro
                             login={this.abrirLogin}

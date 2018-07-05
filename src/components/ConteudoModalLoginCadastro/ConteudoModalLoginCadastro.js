@@ -1,27 +1,22 @@
 import React, { Component } from 'react';
 // CSS
 
-import Login from '../Login/Login';
-import Cadastro from '../Cadastro/Cadastro';
+import FormularioLogin from '../FormularioLogin/FormularioLogin';
+import FormularioCadastro from '../FormularioCadastro/FormularioCadastro';
 
 class ConteudoModalLoginCadastro extends Component {
   render() {
 
     if (this.props.tela == 'login') {
       return (
-        <Login />
+        <FormularioLogin />
       );
     } 
     else if (this.props.tela == 'cadastro') {
       return (
-        <Cadastro />
+        <FormularioCadastro />
       );
     }
-    return (
-      <div className="conteudo-modal-login-cadastro">
-
-      </div>
-    );
   }
 }
 
