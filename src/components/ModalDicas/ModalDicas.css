@@ -16,7 +16,7 @@
     transform: translateY(-100%);
 }
 
-.ativo {
+.modal-dicas.ativo {
     opacity: 1;
     transform: translate(-50%, -35%);
 }

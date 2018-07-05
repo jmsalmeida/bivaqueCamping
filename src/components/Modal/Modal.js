@@ -19,7 +19,7 @@ class Modal extends Component {
                         <div className="fechar">
                             <a onClick={this.props.alternarModal}><i class="fas fa-times"></i></a>
                         </div>
-                        <Login/>
+                        {/* <Login/> */}
                     </div>
                 </div>
             </div>
