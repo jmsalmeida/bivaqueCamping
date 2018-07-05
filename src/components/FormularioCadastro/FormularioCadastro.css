@@ -1,0 +1,15 @@
+.formulario-cadastro button:nth-child(2){
+  background-color: #306AAD;
+}
+
+.formulario-cadastro button:nth-child(3){
+  background-color: #EB2E2C;
+}
+
+.form-cadastro > div{
+  display: flex;
+}
+
+.form-cadastro button.social-button{
+  background-color: #6EBF00;
+}

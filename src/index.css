@@ -42,3 +42,37 @@ h3{
 .center{
   text-align: center;
 }
+
+.social-button{
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+.social-button i {
+  font-size: 30px;
+  margin-right: 30px;
+}
+
+input{
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  border: 1px solid #6EBF00;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+::placeholder{
+  padding: 5px;
+}

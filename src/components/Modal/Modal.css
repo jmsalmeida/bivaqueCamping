@@ -1,6 +1,6 @@
 .modal-style {
     width: 1000px;
-    height: 605px;
+    height: auto;
     margin: 20px 0;
     position: fixed;
     z-index: 999;
