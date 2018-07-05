@@ -16,9 +16,9 @@ class Modal extends Component {
             <div>
                 <div className="caixa">
                     <div className={modalCSS}>
-                        <div className="fechar">
+                        {/* <div className="fechar">
                             <a onClick={this.props.alternarModal}><i class="fas fa-times"></i></a>
-                        </div>
+                        </div> */}
                         {/* <Login/> */}
                     </div>
                 </div>
